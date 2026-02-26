@@ -1,0 +1,27 @@
+
+import random
+meme_dict = {
+            "gg": "Güzel bir oyun olduğunda gg denilir kısaca good game.",
+            "fake": "bir şeyde kandırıldığınızda söylenen şey.",
+            }
+
+
+word = input("Anlamadığınız bir kelime yazın (hepsini küçük harflerle yazın!): ")
+
+if word in meme_dict.keys():
+    print("Kelimenin anlamı:",meme_dict(word))
+    # Kelime eşleşiyorsa ne yapmalıyız?
+else:
+    # Kelime eşleşmiyorsa ne yapmalıyız?
+    print("Aaaa bu kelime yok.")
+    input("bu kelimeyi eklemek istermisiniz anlamı ve kelime?")
+
+meme_dict[word] = "input"
+print("eklendi")
+Konsol
+Anlamadığınız bir kelime yazın (hepsini küçük harflerle yazın!): 
+hu
+Aaaa bu kelime yok.
+bu kelimeyi eklemek istermisiniz anlamı ve kelime?
+
+
